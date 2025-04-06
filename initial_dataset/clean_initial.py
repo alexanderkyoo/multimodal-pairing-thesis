@@ -12,5 +12,6 @@ wikiart_truncated_df = wikiart_df.head(2000)
 wikiart_truncated_path = 'initial_dataset/WikiArt-info-truncated.tsv'
 wikiart_truncated_df.to_csv(wikiart_truncated_path, index=False, sep='\t')
 
+# Index Emotion Poetry Data
 ep_df = pd.read_csv('initial_dataset/EmotionPoetryData.csv')
 ep_df.to_csv('initial_dataset/EmotionPoetryData-indexed.csv', index=True, index_label='ID')
