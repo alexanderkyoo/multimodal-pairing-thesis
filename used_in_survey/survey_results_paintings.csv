@@ -1,0 +1,21 @@
+Painting Number,ID,Category,Year,Abstract,Object
+1,57727d75edc2cb3880e7cd7e,Northern Renaissance,1520, False, True
+2,57727be9edc2cb3880e2e2d8,Impressionism,1882-1883, False, True
+3,577286aaedc2cb388004e49a,Romanticism,1815, False, True
+4,57728560edc2cb388000f134,Neoclassicism,1937, False, True
+5,57727fb8edc2cb3880eec9fd,Abstract Art,1950, True, False
+6,5772849aedc2cb3880fe6c81,Color Field Painting,1970, True, False
+7,57727ca4edc2cb3880e54008,Early Renaissance,1435, False, True
+8,577284a2edc2cb3880fe78b5,Color Field Painting,1961, True, True
+9,577278b0edc2cb3880d8b4fe,Romanticism,1796, False, True
+10,57727e13edc2cb3880e9b46d,Magic Realism,1989, False, True
+11,5772842aedc2cb3880fd19d7,Art Informel,1955, True, False
+12,57728723edc2cb3880064336,Lyrical Abstraction,1964, True, False
+13,57726f02edc2cb3880b935ca,Impressionism,1879, False, True
+14,577286a1edc2cb388004d63b,"Magic Realism,Neoclassicism",1930, False, True
+15,577287afedc2cb388007fc4b,Minimalism,1960, False, True
+16,57727692edc2cb3880d1ed75,Cubism,1915, False, False
+17,57726f47edc2cb3880b9ffaf,Romanticism,1799, False, True
+18,577284faedc2cb3880ffa922,Art Informel,1959, True, True
+19,5772840aedc2cb3880fc9321,Magic Realism,1995, False, True
+20,577287baedc2cb3880080d18,Neo-Expressionism,2001, True, False
