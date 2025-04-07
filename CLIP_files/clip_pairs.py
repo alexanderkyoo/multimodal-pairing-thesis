@@ -20,4 +20,4 @@ for i, painting in enumerate(painting_ids):
     similarity_score = similarity_scores[i, best_poem_index].item()
     pairings.append({"Painting": painting, "Best Matching Poem Index": best_poem_index, "Similarity Score": similarity_score})
 
-pd.DataFrame(pairings).sort_values(by="Similarity Score", ascending=False).to_csv("CLIP_files/painting_poem_pairings.csv", index=False)
+pd.DataFrame(pairings).sort_values(by="Similarity Score", ascending=False).to_csv("CLIP_files/clip_pairings.csv", index=False)
