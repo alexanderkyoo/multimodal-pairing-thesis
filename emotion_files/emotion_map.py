@@ -35,5 +35,8 @@ mapped_emotions = mapped_emotions.div(mapped_emotions.sum(axis=1), axis=0).filln
 metadata_columns = ['ID', 'Style', 'Category', 'Artist', 'Title']
 df_metadata = df[metadata_columns]
 df_result = pd.concat([df_metadata, mapped_emotions], axis=1)
-output_file_path = 'emotion_files/WikiArt_mapped2.csv'
+
+df_result = df_result.head(2000)
+
+output_file_path = 'emotion_files/WikiArt_mapped.csv'
 df_result.to_csv(output_file_path, index=False)
